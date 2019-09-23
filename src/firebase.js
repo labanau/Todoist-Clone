@@ -7,10 +7,10 @@ const firebaseConfig = firebase.initializeApp({
   apiKey: apiConfig.apiKey,
   authDomain: apiConfig.authDomain,
   databaseURL: apiConfig.databaseURL,
-  projectdId: apiConfig.projectdId,
+  projectId: apiConfig.projectId,
   storageBucket: apiConfig.storageBucket,
-  messageSenderId: apiConfig.messageSenderId,
-  apiId: apiConfig.apiId
+  messagingSenderId: apiConfig.messageSenderId,
+  appId: apiConfig.apiId
 });
 
 export { firebaseConfig as firebase };
