@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import apiConfig from '../src/apiKeys';
+import firebase from "firebase/app";
+import "firebase/firestore";
+import apiConfig from "../src/apiKeys";
 
 const firebaseConfig = firebase.initializeApp({
   apiKey: apiConfig.apiKey,
@@ -10,7 +10,7 @@ const firebaseConfig = firebase.initializeApp({
   projectdId: apiConfig.projectdId,
   storageBucket: apiConfig.storageBucket,
   messageSenderId: apiConfig.messageSenderId,
-  apiId: apiConfig.apiId,
+  apiId: apiConfig.apiId
 });
 
-export {firebaseConfig as firebase};
+export { firebaseConfig as firebase };

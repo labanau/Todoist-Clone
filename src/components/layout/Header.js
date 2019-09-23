@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
-import React from 'react';
-import {FaPizzaSlice} from 'react-icons/fa';
+import React from "react";
+import { FaPizzaSlice } from "react-icons/fa";
 
 export const Header = () => {
   const x = 1;
@@ -13,7 +13,9 @@ export const Header = () => {
         <div className="settings">
           <ul>
             <li>+</li>
-            <li><FaPizzaSlice/></li>
+            <li>
+              <FaPizzaSlice />
+            </li>
           </ul>
         </div>
       </nav>
